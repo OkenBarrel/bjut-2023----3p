@@ -1,0 +1,17 @@
+module in32(clk,in,out,we);
+  input[31:0] in;
+  output [31:0]out;
+  //input [1:0]sel;
+  input we,clk;
+  reg [31:0] in32;
+  initial
+  begin
+  #5 in32<=32'h00000000;
+  # 5;
+  end
+  
+  always@(posedge clk)
+    if(we)
+      in32<=in;
+  assign out=in32;    
+endmodule

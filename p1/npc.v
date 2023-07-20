@@ -1,0 +1,23 @@
+module npc(pc,npc_sel,imm,zero,jr_in,npc,jal_save,morethan0);
+  input zero,morethan0;
+  input [2:0]npc_sel;
+  input [25:0] imm;
+  input [31:0] pc,jr_in;
+  output [31:0] npc;
+  output [31:0] jal_save;
+  wire [31:0] pcnew,t1,t0,extout;
+  wire [31:0]temp;
+  reg [31:0]stay;
+  
+  assign temp=(npc_sel==3'b001||npc_sel==3'b101)?{{16{imm[15]}},imm[15:0]}://beq & bge
+              (npc_sel==3'b010)?{pc[31:28],imm,2'b00}://jal
+              (npc_sel==3'b011)?{pc[31:28],imm,2'b00}://j
+              (npc_sel==3'b100)?jr_in:32'h00000000;//jr
+  
+  assign extout=temp<<2;
+  assign t0=pc+4;
+  assign t1=t0+extout;
+  assign jal_save=t0;
+  assign npc=((npc_sel==3'b001&&zero)||(npc_sel==3'b101&&morethan0))?t1:
+              (npc_sel!=3'b000&&npc_sel!=3'b001&&npc_sel!=3'b101)?temp:t0;
+endmodule

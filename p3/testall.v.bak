@@ -1,0 +1,43 @@
+ module testall;
+  reg clk,rst;
+  reg [31:0]input_in32=32'habab1212;
+  wire [31:0] PrDin;
+  wire [7:2] HWint;
+  wire [31:0] PrDout,dev_writeData;
+  wire [31:2] Praddr;
+  wire WEcpu;
+  wire [31:0] timer_rd,in32_rd;
+  wire [2:0] we;
+  wire [31:0] output_out32;
+  reg in32_we;
+  wire [3:2] dev_addr;
+  //wire clk_i;
+  
+  mips m1(clk,rst,PrDin,HWint,Praddr,WEcpu,PrDout);
+  
+  bridge b1(Praddr,WEcpu,PrDout,timer_rd,in32_rd,output_out32,PrDin,dev_addr,dev_writeData,we);
+  
+  in32 i1(clk,input_in32,in32_rd,we[2]);//?cpu??
+  out32 o1(clk,dev_writeData,we[1],output_out32);//?cpu??
+  
+  timer t1(clk,rst,dev_addr,dev_writeData,we[0],timer_rd,HWint[2]);
+  assign HWint[7:3]=5'b00000;
+  
+  initial
+  begin
+    clk=1;rst=0;
+    #5 ;//m1.g1.rst=1;
+    rst=1;
+    #5 ;//m1.g1.rst=0;
+    rst=0;
+    
+    $readmemh("p3-test.txt",m1.im1.im);
+    $readmemh("p3-texception1.txt",m1.im1.im,32'h00001180);
+    
+  end
+  
+  always
+    begin
+    #30 clk=~clk;
+    end
+endmodule

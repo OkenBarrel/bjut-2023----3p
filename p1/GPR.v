@@ -1,0 +1,35 @@
+module GPR(GPRWr,clk,rr1,rr2,wr,wd,readData1,readData2,alu_overflow,slt_ctrl);
+  input [4:0]rr1,rr2,wr;
+  input  [31:0]wd;
+  input GPRWr,clk,alu_overflow,slt_ctrl;
+  reg rst;
+  output [31:0]readData1,readData2;
+  
+  reg [31:0]regs[31:0];
+  integer i=0;
+  
+  initial
+  begin
+    #5;
+    for(i=0;i<32;i=i+1)
+      regs[i]<=32'h00000000;
+    #5;
+  end
+  
+  assign readData1=regs[rr1+0];
+  assign readData2=regs[rr2+0];
+  
+  always@(posedge clk)
+  begin
+    if(GPRWr&&wr!=5'b00000)
+      regs[wr+0]<=wd;
+    else
+      regs[wr+0]<=regs[wr+0];
+    if(alu_overflow)
+      regs[30][0]<=1;
+    if(slt_ctrl&&wr!=5'b00000)
+      regs[wr+0]=regs[wr+0]||wd;
+  end
+  
+  
+endmodule

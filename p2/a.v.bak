@@ -1,0 +1,11 @@
+module a(in,out);
+  input [31:0]in,out;
+  reg[31:0] aa;
+  
+  always@(*)
+  begin
+    aa<=in;
+  end
+  
+  assign out=aa;
+endmodule

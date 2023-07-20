@@ -1,0 +1,148 @@
+{E:/Files for Work/Computer organization/final proj/p3/testall.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/testall.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module testall
+
+Top level modules:
+	testall
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/timer.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/timer.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/npc.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/npc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/a.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/a.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module a
+
+Top level modules:
+	a
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/ext.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/ext.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/alu.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/alu.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/cp0.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/cp0.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module cp0
+
+Top level modules:
+	cp0
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/in32.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/in32.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module in32
+
+Top level modules:
+	in32
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/bridge.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/bridge.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module bridge
+
+Top level modules:
+	bridge
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/test_fsm.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/test_fsm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test_fsm
+
+Top level modules:
+	test_fsm
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/im.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/im.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/test_timer.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/test_timer.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test_timer
+
+Top level modules:
+	test_timer
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/mips.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/dm.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/dm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/GPR.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/GPR.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/ir.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/ir.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/pc.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/pc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/out32.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/out32.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module out32
+
+Top level modules:
+	out32
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/fsm.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/fsm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/test.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/test.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} {E:/Files for Work/Computer organization/final proj/p3/test_regs.v} {1 {vlog -work work -vopt {E:/Files for Work/Computer organization/final proj/p3/test_regs.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test_regs
+
+Top level modules:
+	test_regs
+
+} {} {}}

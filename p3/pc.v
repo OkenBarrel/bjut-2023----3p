@@ -1,0 +1,18 @@
+module pc(clk,PCWr,npc,reset,pcout);
+  input clk,reset,PCWr;
+  input [31:0] npc;
+  output [31:0] pcout;
+  reg [31:0] pcout1;
+  
+  
+  always @(posedge clk,posedge reset)
+  begin
+    if(reset)//reset=1 ??
+      pcout1<=32'h0000_3000;
+    else if(PCWr)
+      pcout1<=npc;
+    else
+      pcout1<=pcout1;
+  end
+  assign pcout=pcout1;
+endmodule

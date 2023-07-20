@@ -1,0 +1,9 @@
+im_1k(sddr,dout);
+  input [9:0]addr;
+  output [31:0]dout;
+  reg [7:0]im[1023:0];
+  
+  assign dout={im[addr+0],im[addr+1],im[addr+2],im[addr+3]};
+  
+endmodule
+

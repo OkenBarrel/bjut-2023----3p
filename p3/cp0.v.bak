@@ -1,0 +1,62 @@
+module cp0(pc,din,HWint,sel,cp0WR,epcWR,exlset,exlclr,clk,rst,IntReq,epc,dout);
+  input [31:2] pc;
+  input [7:2] HWint;//cause
+  input [3:0] sel;
+  input cp0WR, exlset,exlclr,clk,rst,epcWR;
+  input [31:0] din;
+  
+  output [31:2] epc;
+  output [31:0] dout;
+  output IntReq;
+  
+  reg [7:2]im;
+  reg exl,ie;
+  wire [31:0] SR;//SR
+  reg [7:2] cause;
+  wire[31:0] CAUSE;//cause
+  reg [31:2] EPC;
+  reg [31:0]PRId=32'h21074113;
+  
+  assign SR={16'b0,im,8'b0,exl,ie};
+  assign CAUSE={16'b0,cause,10'b0};
+  always@(posedge clk,posedge rst)
+  begin
+    if(rst)
+      begin
+        im=0;
+        exl=0;
+        ie=0;
+        cause=0;
+        EPC=0;
+      end
+    else
+      begin
+      cause=HWint;
+      if(~exl&&epcWR)
+      begin
+        EPC<=pc;
+      end
+      
+      if(cp0WR)
+        case(sel)
+          4'b1100:{im,exl,ie}<={din[15:10],din[1],din[0]};//SR
+          4'b1101:cause<=HWint;//cause
+          4'b1110:EPC<=pc[31:2];
+          4'b1111:PRId<=din;
+        endcase
+        
+      if(exlset)
+        exl<=1;
+      if(exlclr)
+        exl<=0;
+      end
+      
+
+  end
+  assign dout = (sel==12)? SR://SR
+                (sel==13)? CAUSE ://cause
+                (sel==14)? EPC://epc
+                (sel==15)? PRId:32'b0 ;
+
+  assign IntReq =|(HWint[7:2]&im[7:2])&ie&!exl ;
+endmodule

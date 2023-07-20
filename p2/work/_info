@@ -1,0 +1,302 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Files for Work\Computer organization\final proj\p1
+T_opt
+VW;1]GW@jz>@R@oj=BY^5C3
+04 7 4 work testall fast 0
+=1-601895503c86-6497b5b7-296-26a0
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1a;51
+Z1 dE:\Files for Work\Computer organization\final proj\p1
+va
+VeUi:3K[Tj6S>l>?ZClWWK0
+r1
+31
+IVDWHWF:>P5I@z9<3Z@G0V1
+Z2 dE:\Files for Work\Computer organization\final proj\p2
+w1687516654
+8E:/Files for Work/Computer organization/final proj/p2/a.v
+FE:/Files for Work/Computer organization/final proj/p2/a.v
+L0 1
+Z3 OE;L;10.1a;51
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 WAdZzJDnY^DP1onaKQAPJ2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/a.v|
+!s108 1688369599.190000
+!s107 E:/Files for Work/Computer organization/final proj/p2/a.v|
+valu
+VVh:cGX3X^g7a0Vi2EicGm3
+r1
+31
+IJHo:2_3dXe;eaRTo:N5V90
+R2
+w1687874180
+8E:/Files for Work/Computer organization/final proj/p2/alu.v
+FE:/Files for Work/Computer organization/final proj/p2/alu.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 6o?L`zB>2aVYKnXAYFbST3
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/alu.v|
+!s108 1688369598.187000
+!s107 E:/Files for Work/Computer organization/final proj/p2/alu.v|
+vcontrol
+IiEc_koVDa]jV3;df^hI2h0
+V099ZgF4HP25b@^?M_Z?JT3
+R2
+w1687519195
+8E:/Files for Work/Computer organization/final proj/p2/control.v
+FE:/Files for Work/Computer organization/final proj/p2/control.v
+L0 1
+R3
+r1
+31
+R4
+!s100 Lm4Og93iQ]D1ijc:[4MPI0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/control.v|
+!s108 1688369598.259000
+!s107 E:/Files for Work/Computer organization/final proj/p2/control.v|
+!i10b 1
+!s85 0
+vdm_1k
+!i10b 1
+VHb_zdC1410ZkAGc[T]_4^2
+r1
+!s85 0
+31
+I12IWmMmUAiE?7c`l8MXnz1
+R2
+w1687680810
+8E:/Files for Work/Computer organization/final proj/p2/dm.v
+FE:/Files for Work/Computer organization/final proj/p2/dm.v
+L0 1
+R3
+R4
+!s100 [aTC0a^7@52QL[T<KnEDI2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/dm.v|
+!s108 1688369598.330000
+!s107 E:/Files for Work/Computer organization/final proj/p2/dm.v|
+vext
+Vgh[Q?5cO`j>6i@3kl_eUN1
+r1
+31
+I]:cYoE0oQEHHX?AbT:7cN2
+R2
+w1687451043
+8E:/Files for Work/Computer organization/final proj/p2/ext.v
+FE:/Files for Work/Computer organization/final proj/p2/ext.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 nmXOAjZ?<XkVA3ETU:Y8J1
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/ext.v|
+!s108 1688369598.401000
+!s107 E:/Files for Work/Computer organization/final proj/p2/ext.v|
+vfsm
+VDKgQXn4J`508?L>f8IFDU1
+r1
+31
+I0[QE<8OofGMbDjcOfnnD^2
+R2
+w1688369460
+8E:/Files for Work/Computer organization/final proj/p2/fsm.v
+FE:/Files for Work/Computer organization/final proj/p2/fsm.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 g<]WzX;2IY5CWB2hchkTP2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/fsm.v|
+!s108 1688369599.045000
+!s107 E:/Files for Work/Computer organization/final proj/p2/fsm.v|
+vGPR
+Vh<j<eHRC5PW=aK:35bG883
+r1
+31
+IMDL86W;:aIRciibg;N[h^3
+R2
+w1688285014
+8E:/Files for Work/Computer organization/final proj/p2/GPR.v
+FE:/Files for Work/Computer organization/final proj/p2/GPR.v
+L0 2
+R3
+R4
+n@g@p@r
+!i10b 1
+!s85 0
+!s100 keo?=25Q0M]Q3YHE[n>A11
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/GPR.v|
+!s108 1688369598.472000
+!s107 E:/Files for Work/Computer organization/final proj/p2/GPR.v|
+vim_1k
+VhWmVPd4oE5A1Xkle@lUIl2
+r1
+31
+I4Iz4:cMWC9k^OEJ[^UII<2
+R2
+w1684670492
+8E:/Files for Work/Computer organization/final proj/p2/im.v
+FE:/Files for Work/Computer organization/final proj/p2/im.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 29>kkA]OeP1Gz@1jRkEUh0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/im.v|
+!s108 1688369598.543000
+!s107 E:/Files for Work/Computer organization/final proj/p2/im.v|
+vir
+V<M3NeSoKi_ePXKBWD0EZ[3
+r1
+31
+I:Nn`?>hHY_ATBbiO7U<iO3
+R2
+w1687517129
+8E:/Files for Work/Computer organization/final proj/p2/ir.v
+FE:/Files for Work/Computer organization/final proj/p2/ir.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 ?]HZD@JSz0TS6ezAo`0>i0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/ir.v|
+!s108 1688369599.119000
+!s107 E:/Files for Work/Computer organization/final proj/p2/ir.v|
+vmips
+V^lO[ZOI0I1e8M8GJjI9B:3
+r1
+31
+Ij1lUO7L`?50KK9GmKgCh]2
+R2
+w1688369596
+8E:/Files for Work/Computer organization/final proj/p2/mips.v
+FE:/Files for Work/Computer organization/final proj/p2/mips.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/mips.v|
+!s100 WNZUQQjTST:CgTf8Pl`UD2
+!s108 1688369598.615000
+!s107 E:/Files for Work/Computer organization/final proj/p2/mips.v|
+vnpc
+V9eGR5iYKPH7R9@?RLX;nP3
+r1
+31
+Id:FgmRWS6RjR<8D@@>_E:3
+R2
+w1687608842
+8E:/Files for Work/Computer organization/final proj/p2/npc.v
+FE:/Files for Work/Computer organization/final proj/p2/npc.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 `4T@OXFWPLObG?K5XnGZQ0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/npc.v|
+!s108 1688369598.685000
+!s107 E:/Files for Work/Computer organization/final proj/p2/npc.v|
+vpc
+VGKK2OKPQo0=]i:ZeBHK]S1
+r1
+31
+IAlmJ@m1aFza^I6PMl4oJT2
+R2
+w1687578525
+8E:/Files for Work/Computer organization/final proj/p2/pc.v
+FE:/Files for Work/Computer organization/final proj/p2/pc.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 6;534[Y?Kk=6`0BPD[EYB3
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/pc.v|
+!s108 1688369598.756000
+!s107 E:/Files for Work/Computer organization/final proj/p2/pc.v|
+vtest
+I;:YNIi`nRAogBD>d93oo53
+Vk<3<[f=78GX=_HO53D;7>3
+R2
+w1687485342
+8E:/Files for Work/Computer organization/final proj/p2/test.v
+FE:/Files for Work/Computer organization/final proj/p2/test.v
+L0 1
+R3
+r1
+31
+R4
+!s100 :;RVb9mT5@eV8CBGVdW0S1
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/test.v|
+!s108 1688369598.827000
+!s107 E:/Files for Work/Computer organization/final proj/p2/test.v|
+!i10b 1
+!s85 0
+vtest_fsm
+Ic6ok>HFzOT4zB5=PmcXMF1
+Vjl]`]>fZ_j;HY^9[2eF0U0
+R2
+w1687588591
+8E:/Files for Work/Computer organization/final proj/p2/test_fsm.v
+FE:/Files for Work/Computer organization/final proj/p2/test_fsm.v
+L0 1
+R3
+r1
+31
+R4
+!s100 Q8SMWLT@gH0@8b@:hkZLI3
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/test_fsm.v|
+!i10b 1
+!s85 0
+!s108 1688369599.263000
+!s107 E:/Files for Work/Computer organization/final proj/p2/test_fsm.v|
+vtest_regs
+Iiba=fNZ3NA5ASL;dFNjFA0
+VLIaShRDfnd_TXQcbS][aP1
+R2
+w1687449477
+8E:/Files for Work/Computer organization/final proj/p2/test_regs.v
+FE:/Files for Work/Computer organization/final proj/p2/test_regs.v
+L0 1
+R3
+r1
+31
+R4
+!s100 ^BPacJ056LD:n]g48Qbmg3
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/test_regs.v|
+!s108 1688369598.900000
+!s107 E:/Files for Work/Computer organization/final proj/p2/test_regs.v|
+!i10b 1
+!s85 0
+vtestall
+Vi<MLdn4GzS4M2_61LU[QP0
+r1
+31
+IEhjXdkd2225nJdmDB0=:P2
+R2
+w1687872799
+8E:/Files for Work/Computer organization/final proj/p2/testall.v
+FE:/Files for Work/Computer organization/final proj/p2/testall.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 YOdM?cjjaTCj;_F6f573`0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Files for Work/Computer organization/final proj/p2/testall.v|
+!s108 1688369598.972000
+!s107 E:/Files for Work/Computer organization/final proj/p2/testall.v|

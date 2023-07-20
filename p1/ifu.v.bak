@@ -1,0 +1,28 @@
+module ifu(clk,reset,npc_sel,zero,insout);
+  input clk,reset,zero;
+  input npc_sel;
+  output [31:0] insout;
+  reg[31:0] pc;
+  wire [9:0] addr;
+  wire [31:0] pcnew,t1,t0,extout,temp;
+  wire [15:0] imm;
+  wire instr;
+  
+  assign addr=pc[9:0];
+  im_1k(addr,insout);
+  assign imm=insout[15:0];
+  assign temp={{16{imm[15]}},imm};
+  assign extout=temp<<2;
+  
+  always @(posedge clk,posedge reset)
+  begin
+    if(reset)
+      pc=32'h0000_3000;
+  else
+    pc=pcnew; 
+  end
+  
+  assign t0=pc+4;
+  assign t1=t0+extout;
+  assign pcnew=(npc_sel&&zero)?t1:t0;
+endmodule
